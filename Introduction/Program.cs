@@ -9,6 +9,7 @@
             float f;
             int yy;
             string s;
+            string s8;
 
 
         }
