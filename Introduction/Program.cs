@@ -7,7 +7,9 @@
             int t;
             double d;
             float f;
+            int yy;
             string s;
+
 
         }
     }
