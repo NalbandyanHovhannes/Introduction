@@ -8,50 +8,75 @@ namespace Introduction
     {
         static void Main(string[] args)
         {
+
+            //Value Types
             //dataType     dataName      value
-            //byte byteType = 25;
-            //Console.WriteLine(byteType);
-            //sbyte sbyteType = 25;
-            //Console.WriteLine(sbyteType);
-            //short shortType = 44;
-            //Console.WriteLine(shortType);
-            //int intType = 654164156;
-            //Console.WriteLine(intType);
-            //long longType = -65416516514564156;
-            //Console.WriteLine(longType);
-            //ulong ulongType = 65416516514564156;
-            //Console.WriteLine(ulongType);
 
-            //float fl = 999.12395000009f;//check
-            //double doub = 999999999.5456488888;
-            //Console.WriteLine(fl);
-            //Console.WriteLine(doub);
+            byte byteType = 25;//-128    127
+            Console.WriteLine(byteType);
 
-            // decimal dec = 999999999.54564888888888m;
-            //Console.WriteLine(dec);
+            sbyte sbyteType = 25;//0    255
+            Console.WriteLine(sbyteType);
 
-            //char a = 'a';//97
-            //Console.Write("(((byte)a))----------");
-            //Console.WriteLine(((float)a));
-            //Console.Write("a-----------");
-            //Console.WriteLine(a);
-            //char b = 'b';
-            //var u = a + b;//Home 
+            short shortType = 44;//
+            Console.WriteLine(shortType);
 
-            ////096662266
+            ushort ushortType = 44;//
+            Console.WriteLine(ushortType);
+
+            int intType = 654164156;
+            Console.WriteLine(intType);
+
+            uint uintType = 654164156;
+            Console.WriteLine(uintType);
+
+            long longType = -65416516514564156;
+            Console.WriteLine(longType);
+
+            ulong ulongType = 65416516514564156;
+            Console.WriteLine(ulongType);
+
+            float fl = 999.12395000009f;//check
+            Console.WriteLine(fl);
+            
+            double doub = 999999999.5456488888;            
+            Console.WriteLine(doub);
+
+            decimal dec = 999999999.54564888888888m;
+            Console.WriteLine(dec);
+
+            char a = 'a';//97
+            Console.Write(a);
+
+            Console.WriteLine(((float)a));
+
+            Console.Write("a-----------");
+            Console.WriteLine(a);
+
+            char b = 'b';
+
+            var u = a + b;//Home 
+
+            bool bl=true;
+            Console.WriteLine(bl);
+           
+
+            //Reverence Types
+
             string s = "test";//string memory alocation 
-            //s = "zdljihfhlia";//reassignment string  
+            s = "zdljihfhlia";//reassignment string  
+            s = "564654";
+            Console.WriteLine(s);
 
-            StringBuilder sb=new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             sb.Append("Test");
             sb.Replace("e", "b"); //Tbst
             s.Substring(2);
             Console.WriteLine(sb);
 
-
             Console.ReadKey();
-            DateTime dt =new DateTime();
-            
+            DateTime dt = new DateTime();
+
 
         }
     }
