@@ -10,13 +10,13 @@ namespace IncrementDecrement
         {
             int k = 1;
             Console.WriteLine(k);
-           int u= k+1;
+            int u = k + 1;
             Console.WriteLine(k);
-           int o= ++k;
+            int o = ++k;
             Console.WriteLine(k);
             int yy = 5;
-            yy = 66 ;
-            Console.WriteLine(  yy);
+            yy = 66;
+            Console.WriteLine(yy);
 
         }
     }
