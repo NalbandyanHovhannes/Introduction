@@ -4,39 +4,37 @@
     {
         public static void Main(string[] args)
         {
+            TestDouble(45);
+            TestInt(30);
+            MethodInt(13);
 
-            //int sumEd = MethodInt(16);
-            //int sumDav = MethodInt(26);
-            //Console.WriteLine(sumEd);
-            //Console.WriteLine(sumDav);
-           
             TestVoid(9);
 
         }
 
-        static void TestVoid(int t)
+        public static void TestVoid(int t)
         {
             int calc = 626;
             var sum= -648641;
             Console.WriteLine(t*calc);
             
         }
-
-
-
-        static int MethodInt(int x)
-        //static int MethodInt(16) sumEd
+        public static int MethodInt(int x)
 
         {
             int sum = x * 50000;            
             return sum;
         }
-
-
-        public static double TestDouble()
+        public static double TestDouble(int x)
         {
-            Console.WriteLine("TestInt");
-            return 0;
+            var sum = x * x;            
+            return sum;
         }
+        public static int TestInt(int x)
+        {
+            var sum = x * x;
+            return sum;
+        }
+
     }
 }
