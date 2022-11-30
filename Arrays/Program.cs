@@ -3,7 +3,8 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        string[] cars1;
+
+        Math.Sqrt(8.5);
         string[] cars2 = { "Volvo", "BMW", "Ford", "Mazda" };
         int[] myNum = { 10, 20, 30, 40 };
         cars2[0] = "Opel";
@@ -28,15 +29,54 @@ internal class Program
 
         //Multidimensional Arrays
 
-        //int[,] numbers = { { 1, 4, 2 }, { 3, 6, 8 } };
+        int[,] numberss = { { 1, 4, 2 }, { 3, 6, 8 } };
 
-        //for (int i = 0; i < numbers.GetLength(0); i++)
+        //for (int i = 0; i < numberss.GetLength(0); i++)
         //{
-        //    for (int j = 0; j < numbers.GetLength(1); j++)
+        //    for (int j = 0; j < numberss.GetLength(1); j++)
         //    {
-        //        Console.WriteLine(numbers[i, j]);
+        //        Console.WriteLine(numberss[i, j]);
         //    }
         //}
+
+
+
+
+        // xArray[0]; xArray[1]; xArray[2]; xArray[3];
+        int[] xArray = {  1, 4, 2 , 3, 6, 8 } ;
+
+        //        int max = 1;
+
+        int max = xArray[0];
+
+        for (int i = 1; i < xArray.Length; i++)
+        {
+            //  1<xArray[1];4 xArray[2];
+            if (max < xArray[i])
+            {
+                max = xArray[i];
+            }
+        }
+        Console.WriteLine(max);
+
+
+
+
+        int[] xArrayBig = { 1, 4, 2, 8, 6, 3 };
+        int getV = 8;
+        int[] xArrayBig2 = new int[] { };
+        int COUT = 0;
+
+
+        for (int i = 1; i < xArrayBig.Length; i=+2)
+        {
+            xArrayBig2[COUT]=xArrayBig[i];
+            COUT=COUT+1;
+        }
+
+
+
+
 
 
     }
