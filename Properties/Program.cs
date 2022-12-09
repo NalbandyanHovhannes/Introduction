@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Person myObj = new Person();
-            myObj.Name = "Liam";
-            Console.WriteLine(myObj.Name);
+            //myObj.Name = "Hovo";
+            //Console.WriteLine(myObj.Name);
         }
           
     }

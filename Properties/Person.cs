@@ -1,13 +1,15 @@
 ﻿namespace Properties
 {
-    internal class Person
+    public class Person
     {
 
-        private string name; // field
-        public string Name   // property
-        {
-            get { return name; }
-            set { name = value; }
-        }
+        ////private string name; // field
+        //public string Name   // property
+        //{
+        //    get { return Name; }
+        //    set { Name = "9"; }
+        //}
+
+        public int Age { get; set; }
     }
 }

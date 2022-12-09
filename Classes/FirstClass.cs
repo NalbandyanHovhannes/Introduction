@@ -2,10 +2,22 @@
 {
     public  class FirstClass
     {
-        int t = 8;
-        public int FirstMethod(int u)
+       public int v;
+      public  int a;
+        public static void MyMethod(int t)
         {
-            return u;
+            Console.WriteLine(t);
+
         }
-    }
+        public FirstClass()
+        {
+
+        }
+        public FirstClass(int u)
+        {
+            
+            v = u; 
+            MyMethod(u);
+        }
+    } 
 }
