@@ -9,8 +9,6 @@ internal class Program
         int[] myNum = { 10, 20, 30, 40 };
         cars2[0] = "Opel";
 
-
-
         // Create an array of four elements, and add values later
         string[] _oneCars = new string[4];
 
@@ -26,20 +24,17 @@ internal class Program
         int[,] numbers = { { 1, 4, 2 }, { 3, 6, 8 } };
 
 
-
         //Multidimensional Arrays
 
-        int[,] numberss = { { 1, 4, 2 }, { 3, 6, 8 } };
+        int[,] numbers1 = { { 1, 4, 2 }, { 3, 6, 8 } };
 
-        //for (int i = 0; i < numberss.GetLength(0); i++)
-        //{
-        //    for (int j = 0; j < numberss.GetLength(1); j++)
-        //    {
-        //        Console.WriteLine(numberss[i, j]);
-        //    }
-        //}
-
-
+        for (int i = 0; i < numbers1.GetLength(0); i++)
+        {
+            for (int j = 0; j < numbers1.GetLength(1); j++)
+            {
+                Console.WriteLine(numbers1[i, j]);
+            }
+        }
 
 
         // xArray[0]; xArray[1]; xArray[2]; xArray[3];
@@ -59,9 +54,6 @@ internal class Program
         }
         Console.WriteLine(max);
 
-
-
-
         int[] xArrayBig = { 1, 4, 2, 8, 6, 3 };
         int getV = 8;
         int[] xArrayBig2 = new int[] { };
@@ -73,11 +65,5 @@ internal class Program
             xArrayBig2[COUT]=xArrayBig[i];
             COUT=COUT+1;
         }
-
-
-
-
-
-
     }
 }
