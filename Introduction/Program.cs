@@ -12,10 +12,10 @@ namespace Introduction
             //Value Types
             //dataType     dataName      value
 
-            byte byteType = 25;//-128    127
+            byte byteType = 25;                //-128    127
             Console.WriteLine(byteType);
 
-            sbyte sbyteType = 25;//0    255
+            sbyte sbyteType = 25;              //0    255
             Console.WriteLine(sbyteType);
 
             short shortType = 44;//
@@ -45,11 +45,9 @@ namespace Introduction
             decimal dec = 999999999.54564888888888m;
             Console.WriteLine(dec);
 
-            char a = 'a';//97
+            char a = 'a';    //97 Char symbol return int type
             Console.Write(a);
-
             Console.WriteLine(((float)a));
-
             Console.Write("a-----------");
             Console.WriteLine(a);
 
@@ -58,8 +56,7 @@ namespace Introduction
             var u = a + b;//Home 
 
             bool bl=true;
-            Console.WriteLine(bl);
-           
+            Console.WriteLine(bl);           
 
             //Reverence Types
 
@@ -72,7 +69,7 @@ namespace Introduction
             sb.Append("Test");
             sb.Replace("e", "b"); //Tbst
             s.Substring(2);
-            Console.WriteLine(sb);
+            //Console.WriteLine(sb);
 
             Console.ReadKey();
             DateTime dt = new DateTime();
