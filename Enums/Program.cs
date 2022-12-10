@@ -12,7 +12,7 @@
         }
         public enum TestEnum
         {
-            Yerevan,
+            Yerevan,//Start with 0 element
             Gyumri,
             Vanadzor,
             Ejmiacin,
@@ -20,8 +20,8 @@
             Dilijan,
             Ijevan,
             Gavar,
-            Goris,
-            Kapan,
+            Goris,//if we set this  Goris=11 after it setted  12/13
+            Kapan,//=12
             Sisian,
             Hrazdan,
             Artashat,
