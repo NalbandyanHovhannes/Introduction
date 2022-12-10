@@ -13,6 +13,9 @@ namespace IncrementDecrement
             int u = k + 1;
             Console.WriteLine(k);
             int o = ++k;
+            k--;
+            k --;
+
             Console.WriteLine(k);
             int yy = 5;
             yy = 66;

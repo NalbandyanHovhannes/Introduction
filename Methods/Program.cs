@@ -7,7 +7,6 @@
             TestDouble(45);
             TestInt(30);
             MethodInt(13);
-
             TestVoid(9);
 
         }
@@ -35,6 +34,15 @@
             var sum = x * x;
             return sum;
         }
+
+        //Method OverLoading
+        //Method input parameters must be different
+        public void TestOverload(int x)
+        { }
+        public void TestOverload(int x,int y)
+        { }
+        public void TestOverload(int x,int y,int z )
+        { }
 
     }
 }

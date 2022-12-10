@@ -1,31 +1,22 @@
-﻿using System;
-using System.Text;
-
-
-namespace Loops
+﻿namespace Loops
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //int sum = 0;
-            //for (int i = 0; i < 100; i++)
-            //{
-            //    sum = sum + i;
-            //}
-            //Console.WriteLine(sum);
+            int sum = 0;
+            for (int i = 0; i < 100; i++)
+            {
+                sum = sum + i;
+                Console.WriteLine(sum);
+            }
+            Console.WriteLine(sum);
 
-
-
-            //var v = new { Amount = "108"};
-            //var v1 = new { Amount = 108, Message = "Hello" };
-           
-            //var people= new { Name = "Hovo", Surname = "Nalbandyan" };
-
-
-            //var t = v.Amount;
-            //int u = int.Parse(v.Amount);
-
+            var v = new { Amount = "108" };
+            var v1 = new { Amount = 108, Message = "Hello" };
+            var people = new { Name = "Hovo", Surname = "Nalbandyan" };
+            var t = v.Amount;
+            int u = int.Parse(v.Amount);
 
             //dynamic
             dynamic d1 = Convert.ToInt32(Console.ReadLine());
