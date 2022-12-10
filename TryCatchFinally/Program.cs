@@ -19,17 +19,20 @@
                 file.ReadBlock(buffer, index, buffer.Length);
             }
 
+            //if catch block can keep this exception it go there
             catch   (DivideByZeroException e )
             {
                 Console.WriteLine("catch exeption" + e.Message);
             }
 
+            //General exception 
             catch (Exception e)
             {
                
                 Console.WriteLine("catch exeption" +e.Message);
             }
     
+            //Finnaly block almost working
             finally
             {
                 if (file != null)

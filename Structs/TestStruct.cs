@@ -1,8 +1,8 @@
 ﻿namespace Structs
 {
-    public struct TestStruct
+    public  struct TestStruct
     {
-        int t;
+        public int t;
         public void TestMethod()
         {
             
