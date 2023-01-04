@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+
+            FirstClass  f1=new FirstClass();
+            Console.WriteLine(f1.a);
             FirstClass firstClass0;//
             FirstClass firstClass = new FirstClass();          // object with default constructor
             FirstClass firstClass1 = new FirstClass(8);       // object with parametr constructor 

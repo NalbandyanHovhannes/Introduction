@@ -1,8 +1,8 @@
 ﻿namespace Structs
 {
-    public  struct TestStruct
+    public readonly  struct TestStruct
     {
-        public int t;
+        public static int t;
         public void TestMethod()
         {
             

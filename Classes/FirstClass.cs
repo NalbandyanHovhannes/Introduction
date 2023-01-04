@@ -2,11 +2,12 @@
 {
     public class FirstClass
     {
+     
         public int v;
         public int a;
         public static void MyMethod(int t)
         {
-            Console.WriteLine(t);
+            
 
         }
 

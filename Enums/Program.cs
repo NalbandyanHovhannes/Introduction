@@ -6,6 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
             Console.WriteLine(TestEnum.Abovyan);
+            
             Console.WriteLine(TestEnum.Abovyan.ToString());
             Console.WriteLine((int)TestEnum.Abovyan);
 
