@@ -6,20 +6,21 @@ namespace RefOut
     {
         static void Main(string[] args)
         {
-            Student student = new Student()
-            {
-                Name = "Susan",
-                Enrolled = false
-            };
+            //Student student = new Student()
+            //{
+            //    Name = "Susan",
+            //    Enrolled = false
+            //};
 
             RefClass refclass = new RefClass();
-            int i = 9;
-            refclass.Enroll(ref student, ref i);
+            //int i = 9;
+            // refclass.Enroll(ref student, ref i);
 
             int num = 1;
             int num2 = 1;
-
-            refclass.IncrementExample(ref num);
+            int kk = 95541;
+            refclass.IncrementExample(ref  kk);
+            Console.WriteLine(num);//aranc ref 1 //refov 6
             refclass.IncrementExample2(num2);
             Console.WriteLine(num);
             Console.WriteLine(num2);
@@ -30,13 +31,15 @@ namespace RefOut
             // student.Enrolled is now false due to the ref modifier
 
             //--------------------------------------------------OUT-----------------------
-            StudentOut studentOut;
+            //StudentOut studentOut;
 
-            OutClass outClass = new OutClass();
-            outClass.EnrollOut(out int t,out studentOut);
+            //OutClass outClass = new OutClass();
+            //int yuy = 67890;
+            //outClass.EnrollOut(out  yuy, out studentOut);
             // student will be equal to the value in Enroll. Name will be null and Enrolled will be false.
 
 
+            //Console.WriteLine(t);
             //OUT with value types 
             int x;
             var uu=Int32.TryParse("3", out x);
